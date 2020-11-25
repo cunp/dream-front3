@@ -244,15 +244,18 @@ header {
     padding: 12px 12px;
     border-bottom: 1px solid var(--grey-light-color);
 }
-.items-main img{
-    width: 168px;
-    height: 94px;
+.items-main-img{
+    flex: 1 1 25%;
+}
+.items-main-img img{
+    width: 100%
 }
 .items-detail{
     display: flex;
     flex-direction: column;
     padding: 0px 12px;
     font-size: var(--font-small);
+    flex: 1 1 75%;
 }
 .items-detail-title{
     font-size: var(--font-large);
@@ -265,3 +268,13 @@ header {
 .items-detail-view{
     color: var(--grey-dark-color);
 }
+
+.infoanditems{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px)
+{.infoanditems{
+    flex-direction: row;
+    
+}}
