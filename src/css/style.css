@@ -233,3 +233,35 @@ header {
     font-size: var(--font-micro);
     color: ;
 }
+.items-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+    font-size: var(--font-medium);
+}
+.items-main{
+    display: flex;
+    padding: 12px 12px;
+    border-bottom: 1px solid var(--grey-light-color);
+}
+.items-main img{
+    width: 168px;
+    height: 94px;
+}
+.items-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+    font-size: var(--font-small);
+}
+.items-detail-title{
+    font-size: var(--font-large);
+    margin: 0 0 4px;
+}
+.items-detail-title-name{
+    margin: 0 0 4px;
+}
+
+.items-detail-view{
+    color: var(--grey-dark-color);
+}
